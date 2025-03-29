@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" type="text/css" href="../styles/catalog.css">
+</head>
+<body>
+    <header>
+        <div class="name">
+            <p>Plastic Forge</p>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html"><img src="../assets/img/return.png" alt="назад"></a></li>
+                <li><a href="../pages/blog.html">Блог</a></li>
+                <li><a href="../pages/reg.html">Войти</a></li>
+                <li><a href="../pages/aboutus.html">О нас</a></li>
+                <li><a href="../pages/account.html"><img src="../assets/img/personal_account.png" alt="personal_account"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="filter">
+                <p>Фильтр товаров</p>
+                <div class="ff">
+                    <div class="filter_btn">
+                        <button class="list_item" data-id="painting">Рисование</button>
+                        <button class="list_item"data-id="decor">Декор</button>
+                        <button class="list_item"data-id="plastic">Пластик</button>
+                        <button class="list_item"data-id="workpiece">Заготовки</button>
+                    </div>
+                    <div class="filter_btn">
+                        <button class="list_item"data-id="tools">Инструменты</button>
+                        <button class="list_item"data-id="modeling">Лепка</button>
+                        <button class="list_item"data-id="miniature">Миниатюры</button>
+                        <button class="list_item"data-id="all">Все</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container_cards">
+                <div class="cards">
+                    <div class="card_holder painting">
+                        <div class="card block_item ">
+                            <div>
+                                <img src="../assets/img/gouache.png" alt="гуашь">
+                            <div class="name_t">
+                                <p>Гуашь "Сонет"</p> 
+                                <p>12 шт.</p>
+                                <div class="price">
+                                    <p>917 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_holder modeling">
+                        <div class="card block_item ">
+                            <img src="../assets/img/plasticine.png" alt="пластилин">
+                            <div class="name_t">
+                                <p>Пластилин</p>
+                                <p>Гамма</p>
+                                <div class="price">
+                                    <p>337 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder modeling">
+                        <div class="card block_item ">
+                            <img src="../assets/img/clay.png" alt="глина">
+                            <div class="name_t">
+                                <p>Глина белая</p>
+                                <p>De Luxe</p>
+                                <div class="price">
+                                    <p>300 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder painting">
+                        <div class="card block_item ">
+                            <img src="../assets/img/canvas.png" alt="холст">
+                            <div class="name_t">
+                                <p>Холст  18 х 24 см</p> 
+                                <p>"VISTA-ARTISTA"</p>
+                                <div class="price">
+                                    <p>129 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_holder tools">
+                        <div class="card block_item ">
+                            <img src="../assets/img/glue.png" alt="клей">
+                            <div class="name_t">
+                                <p>Клей 40 мл</p>
+                                <p>классический</p>
+                                <div class="price">
+                                    <p>399 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder tools">
+                        <div class="card block_item ">
+                            <img src="../assets/img/white_threads.png" alt="нитки белые">
+                            <div class="name_t">
+                                <p>Нитки белые</p>
+                                <p>5000 ярд</p>
+                                <div class="price">
+                                    <p>79 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_holder tools">
+                        <div class="card block_item ">
+                            <img src="../assets/img/cutting_mat.png" alt="коврик">
+                            <div class="name_t">
+                                <p>Коврик для резки</p> 
+                                <p>JAS 3-х слойный</p>
+                                <div class="price">
+                                    <p>1199 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_holder tools">
+                        <div class="card block_item ">
+                            <img src="../assets/img/sandpaper.png" alt="наждачная бумага">
+                            <div class="name_t">
+                                <p>Наждачная</p>
+                                <p>бумага Р20</p>
+                                <div class="price">
+                                    <p>100 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder decor">
+                        <div class="card block_item ">
+                            <img src="../assets/img/forest_grass.png" alt="трава лестная">
+                            <div class="name_t">
+                                <p>Трава лесная</p>
+                                <p>масШТАБ</p>
+                                <div class="price">
+                                    <p>69 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder workpiece">
+                        <div class="card block_item ">
+                            <img src="../assets/img/chassis.png" alt="колеса">
+                            <div class="name_t">
+                                <p>1/35 БТ-2</p> 
+                                <p>Ходовая часть</p>
+                                <div class="price">
+                                    <p>1299 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_holder decor">
+                        <div class="card block_item ">
+                            <img src="../assets/img/r_tapes.png" alt="ленты">
+                            <div class="name_t">
+                                <p>Набор лент</p>
+                                <p>'Радуга'</p>
+                                <div class="price">
+                                    <p>329 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder decor">
+                        <div class="card block_item ">
+                            <img src="../assets/img/stickers_b.png" alt="наклейки с иисусом">
+                            <div class="name_t">
+                                <p>Наклейки 20 шт.</p>
+                                <p>'Божьи'</p>
+                                <div class="price">
+                                    <p>333 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder plastic">
+                        <div class="card block_item ">
+                            <img src="../assets/img/plastic_kit.png" alt="пластик">
+                            <div class="name_t">
+                                <p>Набор пластика</p> 
+                                <p>7 шт.</p>
+                                <div class="price">
+                                    <p>3599 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_holder miniature">
+                        <div class="card block_item ">
+                            <img src="../assets/img/mordecai_rigby.png" alt="миниатюра">
+                            <div class="name_t">
+                                <p>Авторская миниатюра </p>
+                                <p>“Mordecai and Rigby”</p>
+                                <div class="price">
+                                    <p>359 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder miniature">
+                        <div class="card block_item ">
+                            <img src="../assets/img/grrsh.png" alt="миниатюра">
+                            <div class="name_t">
+                                <p>Авторская миниатюра</p>
+                                <p>'GRRSH'</p>
+                                <div class="price">
+                                    <p>999 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder miniature">
+                        <div class="card block_item ">
+                            <img src="../assets/img/orc_carts.png" alt="миниатюра">
+                            <div class="name_t">
+                                <p>Авторская миниатюра</p> 
+                                <p>“Orc Carts”</p>
+                                <div class="price">
+                                    <p>1845 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_holder plastic">
+                        <div class="card block_item ">
+                            <img src="../assets/img/plastic_beige.png" alt="пластик">
+                            <div class="name_t">
+                                <p>Пластик НИТ PLA</p>
+                                <p>1.75 мм, бежевый, 1000 г</p>
+                                <div class="price">
+                                    <p>1199 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card_holder painting">
+                        <div class="card block_item ">
+                            <img src="../assets/img/tassels.png" alt="кисточки">
+                            <div class="name_t">
+                                <p>Набор кистей</p>
+                                <p>'Хобби-1'</p>
+                                <div class="price">
+                                    <p>370 p</p>
+                                    <img onclick="func1()" src="../assets/img/cart.png" alt="buy">
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Plastic Forge</h3>
+        <div class="aa">
+            <div class="ss">
+                <a href="../pages/catalog.html">Товары</a>
+                <a href="../pages/blog.html">Блог</a>
+                <a href="../pages/account.html">Личный кабинет</a>
+            </div>
+            <div class="bb">
+                <p>ул. Минаева, 11, Ульяновск, Ульяновская обл., 432000</p>
+                <p>+7(842)241-00-71</p>
+            </div>
+        </div>
+        <div class="groups">
+            <img src="../assets/img/tg.png" alt="tg">
+            <img src="../assets/img/ok.png" alt="ok">
+            <img src="../assets/img/vk.png" alt="vk">
+        </div>
+    </footer>
+    <script src="../scripts/plastic.js"></script>
+    <script src="../scripts/filter.js"></script>
+</body>

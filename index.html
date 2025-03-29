@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" href="./styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="name">
+            <p>Plastic Forge</p>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./pages/catalog.html">Каталог</a></li>
+                <li><a href="./pages/blog.html">Блог</a></li>
+                <li><a href="./pages/reg.html">Войти</a></li>
+                <li><a href="./pages/aboutus.html">О нас</a></li>
+                <li><a href="./pages/account.html"><img src="./assets/img/personal_account.png" alt="personal_account"></a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="paintings">
+                <div class="arts1">
+                    <img src="./assets/img/palette.png" alt="palette">
+                    <img src="./assets/img/threads.png" alt="nitki">
+                </div>
+                <img src="./assets/img/artist.png" alt="woman">
+                <div class="arts2">
+                    <img src="./assets/img/toolbox.png" alt="tools">
+                    <img src="./assets/img/modeling.png" alt="glina">
+                </div>
+            </div>
+            <div class="container">
+            <p class="hi">Ваш источник вдохновения и необходимых материалов для творчества. Откройте для себя мир бесконечных возможностей</p>
+            </div>
+        </section>
+        <section>
+            <h2 class="title">Популярное</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/img/orc_carts.png" alt="миниатюра">
+                    <div class="name_t">
+                        <p>Авторская миниатюра</p> 
+                        <p>“Orc Carts”</p>
+                        <div class="price">
+                            <p>1845 p</p>
+                            <img onclick="func1()" src="./assets/img/cart.png" alt="buy">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/plastic_beige.png" alt="пластик">
+                    <div class="name_t">
+                        <p>Пластик НИТ PLA</p>
+                        <p>1.75 мм, бежевый, 1000 г</p>
+                        <div class="price">
+                            <p>1199 p</p>
+                            <img onclick="func1()" src="./assets/img/cart.png" alt="buy">
+                        </div>
+                     </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/tassels.png" alt="кисточки">
+                    <div class="name_t">
+                        <p>Набор кистей</p>
+                        <p>'Хобби-1'</p>
+                        <div class="price">
+                            <p>370 p</p>
+                            <img onclick="func1()" src="./assets/img/cart.png" alt="buy">
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="spec">
+            <h2 class="title">Спецпредложения</h2>
+            <div class="container">
+                <div class="offer">
+                    <img src="./assets/img/bckg_egg.png" alt="eggs">
+                    <div class="desc">
+                        <p class="desc1">Скидка на материалы для создания пасхальных украшений</p>
+                        <p>до 20 апреля 2025 года</p>
+                        <div class="list">
+                            <p>-15% на краску для яиц, наклейки, ленты, бисер</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="neww">
+            <h2 class="title">Новинки</h2>
+            <div class="container">
+                <div class="new">
+                    <img src="./assets/img/workpiece.png" alt="dool">
+                    <p class="desc2">Появились пластиковые заготовки для кукол. А чтобы процесс творчества был еще приятнее, у нас вы найдете все необходимые материалы:  пряжу, нитки, ткани, краски, фурнитуру и многое другое.</p>
+                </div>
+            </div>
+            <button class="btn"><a href="./pages/blog.html">Больше новостей</a></button>
+        </section>
+    </main>
+    <footer>
+        <h3>Plastic Forge</h3>
+        <div class="aa">
+            <div class="ss">
+                <a href="./pages/catalog.html">Товары</a>
+                <a href="./pages/blog.html">Блог</a>
+                <a href="./pages/account.html">Личный кабинет</a>
+            </div>
+            <div class="bb">
+                <p>ул. Минаева, 11, Ульяновск, Ульяновская обл., 432000</p>
+                <p>+7(842)241-00-71</p>
+            </div>
+        </div>
+        <div class="groups">
+            <img src="./assets/img/tg.png" alt="tg">
+            <img src="./assets/img/ok.png" alt="ok">
+            <img src="./assets/img/vk.png" alt="vk">
+        </div>
+    </footer>
+    <script src="./scripts/plastic.js"></script>
+    <script src="./scripts/burger.js"></script>
+</body>
+</html>
